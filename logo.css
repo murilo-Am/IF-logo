@@ -12,10 +12,13 @@
     width: 100px;
     height: 100px;
     border-radius: 200px;
-    border: 50px;
-    position: absolute;
+    border: 0px;
+    position: fixed;
     top: 0px;
     left: 100px;
+    z-index:5;
+    animation: cir 2s ;
+    animation-fill-mode: forwards;
 }
 
 #quad1 {
@@ -26,6 +29,9 @@
     position: absolute;
     top: 110px;
     left: 100px;
+    z-index:5;
+    animation: q1 2s ;
+    animation-fill-mode: forwards;
     
    
 }
@@ -116,4 +122,26 @@
     top: 220px;
     left: 320px;
    
+}
+
+@keyframes cir
+{
+    0% {top: 0px; background-color: greenyellow;}
+    25% {left: 100px; background-color: darkgreen;}
+    50% {left: 120px; background-color: darkolivegreen;}
+    75% {left: 100px; background-color: green;}
+    100% {top: 200px; left: 600px; background-color: red;}
+    to {top: 200px; left: 600px;}
+
+}
+
+@keyframes q1
+{
+    0% {top: 0px; background-color: greenyellow;}
+    25% {left: 100px; background-color: darkgreen;}
+    50% {left: 80px; background-color: red;}
+    75% {left: 90px; background-color: green;}
+    100% {top: 200px; left: 150px; background-color: green;}
+    to {top: 110px; left: 100px;}
+
 }
