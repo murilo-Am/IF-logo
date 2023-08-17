@@ -1,7 +1,7 @@
 
 
 .cl1{
-    position: absolute;
+    position: fixed;
     margin-top: 200px;
     margin-left: 500px;
 
@@ -11,13 +11,13 @@
     background: red;
     width: 100px;
     height: 100px;
-    border-radius: 200px;
     border: 0px;
+    border-radius: 20px;
     position: fixed;
     top: 0px;
     left: 100px;
-    z-index:5;
-    animation: cir 2s ;
+    z-index:1;
+    animation: cir 6s ;
     animation-fill-mode: forwards;
 }
 
@@ -29,8 +29,8 @@
     position: absolute;
     top: 110px;
     left: 100px;
-    z-index:5;
-    animation: q1 2s ;
+    z-index:1;
+    animation: q1 4s ;
     animation-fill-mode: forwards;
     
    
@@ -44,8 +44,8 @@
     position: fixed;
     top: 220px;
     left: 0px;
-    z-index:5;
-    animation: q2 2s ;
+    z-index:1;
+    animation: q2 4s ;
     animation-fill-mode: forwards;
    
 }
@@ -58,8 +58,8 @@
     position: fixed;
     top: 330px;
     left: 100px;
-    z-index:5;
-    animation: q3 2s ;
+    z-index:1;
+    animation: q3 4s ;
     animation-fill-mode: forwards;
 }
 
@@ -71,8 +71,8 @@
     position: fixed;
     top: 0px;
     left: 210px;
-    z-index:5;
-    animation: q4 2s ;
+    z-index:1;
+    animation: q4 4s ;
     animation-fill-mode: forwards;
 
    
@@ -85,9 +85,8 @@
     border-radius: 20px;
     position: fixed;
     top: 0px;
-    left: 320px;
-    z-index:5;
-    animation: q5 2s ;
+    z-index:1;
+    animation: q5 4s ;
     animation-fill-mode: forwards;
    
 }
@@ -97,9 +96,11 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: absolute;
+    position: fixed;
     top: 110px;
-    left: 210px;
+    z-index:1;
+    animation: q6 4s ;
+    animation-fill-mode: forwards;
    
 }
 
@@ -108,9 +109,10 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: absolute;
-    top: 220px;
-    left: 210px;
+    position: fixed;
+    z-index:1;
+    animation: q7 4s ;
+    animation-fill-mode: forwards;
    
 }
 
@@ -119,9 +121,10 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: absolute;
-    top: 330px;
-    left: 210px;
+    position: fixed;
+    z-index:1;
+    animation: q8 4s ;
+    animation-fill-mode: forwards;
    
 }
 
@@ -130,20 +133,21 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: absolute;
-    top: 220px;
-    left: 320px;
+    position: fixed;
+    z-index:1;
+    animation: q9 4s ;
+    animation-fill-mode: forwards;
+   
    
 }
 
 @keyframes cir
 {
-    0% {top: 0px; background-color: greenyellow;}
+    0% {top: 0px; background-color: greenyellow; border-radius: 0px;}
     25% {left: 100px; background-color: darkgreen;}
     50% {left: 120px; background-color: darkolivegreen;}
     75% {left: 100px; background-color: green;}
-    100% {top: 200px; left: 600px; background-color: red;}
-    to {top: 205px; left: 608px;}
+    100% {top: 205px; left: 608px; background-color: red;border-radius: 200px;}
 
 }
 
@@ -172,7 +176,7 @@
 {
     0% {left: 0; top:500px; background-color: greenyellow;}
     25% {top: 300px; background-color: darkgreen;}
-    50% {top: 290px; background-color: red;}
+    50% {top: 400px; background-color: red;}
     75% {top: 590px; background-color: green;}
     100% {left:610px;  top: 538px; background-color: green;}
 }
@@ -180,17 +184,50 @@
 @keyframes q4
 {
     0% {left: 0; top:0px; background-color: greenyellow;}
-    25% {top: 50px; background-color: darkgreen;}
-    50% {top: 80px; background-color: red;}
+    25% {top: 500px; background-color: darkgreen;}
+    50% {top: 200px; background-color: red;}
     75% {top: 90px; background-color: green;}
     100% {left:718px;  top: 208px; background-color: green;}
 }
 
 @keyframes q5
 {
-    0% {right: 0; top:0px; background-color: greenyellow;}
-    25% {top: 50px; background-color: darkgreen;}
-    50% {right: 80px; background-color: red;}
-    75% {right: 200px; background-color: green;}
-    100% {right:810px;  top: 250px; background-color: green;}
+    0% {right:0px; top:50px; background-color: greenyellow;}
+    25% {right:45px; top: 50px; background-color: darkgreen;}
+    50% {right: 958px; top:208px; background-color: red;}
+    75% {right: 110px; background-color: green;}
+    100% {right:610px;  top: 208px; background-color: green;}
+}
+
+@keyframes q6
+{
+    0% {right:0px; top:50px; background-color: greenyellow;}
+    25% {right: 55px; top: 50px; background-color: darkgreen;}
+    50% {right: 705px; top:90px; background-color: red;}
+    75% {right: 110px; background-color: green;}
+    100% {right:718px;  top: 320px; background-color: green;}
+} 
+@keyframes q7
+{
+    0% {right: 0px; top:50px; background-color: greenyellow;}
+    25% {right: 255px; top: 90px; background-color: darkgreen;}
+    50% {right: 1150px; top:250px; background-color: red;}
+    75% {right: 610px; background-color: green;}
+    100% {right: 715px;  top: 430px; background-color: green;}
+} 
+@keyframes q8
+{
+    0% {bottom: 0px; left: 200px; background-color: greenyellow;}
+    25% {bottom: 25px; background-color: darkgreen;}
+    50% {bottom: 50px; left: 250px; background-color: red;}
+    75% {bottom: 150px; left: 600px; background-color: green;}
+    100% {bottom: 100px; left: 720px; background-color: green;}
+} 
+@keyframes q9
+{
+    0% {bottom: 0px; left: 200px; background-color: greenyellow;}
+    25% {bottom: 25px; background-color: darkgreen;}
+    50% {bottom: 50px; left: 250px; background-color: red;}
+    75% {bottom: 150px; left: 600px; background-color: green;}
+    100% {bottom: 230px; left: 830px; background-color: green;}
 }
