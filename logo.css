@@ -141,12 +141,44 @@
    
 }
 
+#i1 {
+    
+    position: absolute;
+    top: 420px;
+    left: 400px;
+    font-size: 100px;
+    animation: i1 3s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    
+
+}
+
+#i2 {
+    font-size: 100px;
+    position: fixed;
+    top: 420px;
+    left: 800px;
+    animation: i2 4s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes i1{
+
+    0% {opacity: 0;}
+    100% {opacity: 100%;}
+
+}
+
+
 @keyframes cir
 {
     0% {top: 0px; background-color: greenyellow; border-radius: 0px;}
     25% {left: 100px; background-color: darkgreen;}
-    50% {left: 120px; background-color: darkolivegreen;}
-    75% {left: 100px; background-color: green;}
+    35% {left: 500px; top: 450px;  background-color: darkgreen;}
+    50% {left: 820px; top: 550px; background-color: darkgreen;}
+    60% {left: 1220px; top:600px ; background-color: darkolivegreen;}
+    70% {left: 1020px; top: 600px; background-color: darkolivegreen;}
     100% {top: 55px; left: 608px; background-color: red;border-radius: 200px;}
 
 }
@@ -154,7 +186,7 @@
 @keyframes q1
 {
     0% {top: 0px; background-color: greenyellow;}
-    25% {left: 100px; background-color: darkgreen;}
+    25% {left: 1300px; background-color: darkgreen;}
     50% {left: 10px; background-color: red;}
     75% {left: 490px; background-color: green;}
     100% {top: 168px; left: 610px; background-color: green;}
@@ -217,16 +249,16 @@
 @keyframes q8
 {
     0% {bottom: 0px; left: 200px; background-color: greenyellow;}
-    25% {bottom: 25px; background-color: darkgreen;}
-    50% {bottom: 50px; left: 250px; background-color: red;}
-    75% {bottom: 150px; left: 600px; background-color: green;}
+    25% {bottom: 425px; background-color: darkgreen;}
+    50% {bottom: 250px; left: 1250px; background-color: red;}
+    75% {bottom: 650px; left: 600px; background-color: green;}
     100% {bottom: 250px; left: 720px; background-color: green;}
 } 
 @keyframes q9
 {
     0% {bottom: 0px; left: 200px; background-color: greenyellow;}
-    25% {bottom: 25px; background-color: darkgreen;}
-    50% {bottom: 50px; left: 250px; background-color: red;}
-    75% {bottom: 150px; left: 600px; background-color: green;}
+    25% {bottom: 225px; background-color: darkgreen;}
+    50% {bottom: 450px; left: 1250px; background-color: red;}
+    75% {bottom: 550px; left: 600px; background-color: green;}
     100% {bottom: 380px; left: 830px; background-color: green;}
 }
