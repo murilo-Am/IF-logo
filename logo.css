@@ -121,7 +121,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
+    position: absolute;
     z-index:1;
     animation: q8 4s ;
     animation-fill-mode: forwards;
@@ -133,7 +133,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
+    position: absolute;
     z-index:1;
     animation: q9 4s ;
     animation-fill-mode: forwards;
@@ -340,17 +340,17 @@
 } 
 @keyframes q8
 {
-    0% {bottom: 0px; left: 200px; background-color: greenyellow;}
-    25% {bottom: 425px; background-color: darkgreen;}
-    50% {bottom: 250px; left: 1250px; background-color: red;}
-    75% {bottom: 650px; left: 600px; background-color: green;}
-    100% {bottom: 250px; left: 720px; background-color: green;}
+    0% {top: 1000px; left: 0px; background-color: greenyellow;}
+    25% {bottom: 225px; background-color: darkgreen;}
+    50% {bottom: 1250px; left: 250px; background-color: red;}
+    75% {bottom: 850px; left: 900px; background-color: green;}
+    100% {top: 180px; left: 210px; background-color: green;}
 } 
 @keyframes q9
 {
-    0% {bottom: 0px; left: 200px; background-color: greenyellow;}
+    0% {top: 1000px; left: 700px; background-color: greenyellow;}
     25% {bottom: 225px; background-color: darkgreen;}
-    50% {bottom: 450px; left: 1250px; background-color: red;}
-    75% {bottom: 550px; left: 600px; background-color: green;}
-    100% {bottom: 380px; left: 830px; background-color: green;}
+    50% {bottom: 150px; left: 150px; background-color: red;}
+    75% {bottom: 250px; left: 600px; background-color: green;}
+    100% {top: 70px; left: 320px; background-color: green;}
 }
