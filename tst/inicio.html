@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typewriter Effect</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+
+      h1 {
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 3s steps(9),
+        blink 800ms steps(9);
+        border-right: 5px solid black;
+        animation-fill-mode: forwards;
+      }
+      @keyframes typewriter {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 50%;
+        }
+      }
+      @keyframes blink {
+        from {
+          border-color: black;
+        }
+        to {
+          border-color: transparent;
+        }}
+    </style>
+  </head>
+  <body>
+    <h1>GeeksforGeeks</h1>
+  </body>
+</html>
