@@ -1,4 +1,17 @@
+.cl1{
+    opacity: 100%;
+     animation-name: cl1;
+     animation-duration: 0.1s;
+     animation-delay: 15s;
+     animation-fill-mode: forwards;
+} 
 
+.bd {
+    animation-name: bd;
+    animation-duration: 1s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
 
 #circle {
     background: red;
@@ -184,7 +197,20 @@
         animation-duration: 2.5s;
         animation-delay: 12s;
         animation-fill-mode: forwards;
+} 
+
+
+@keyframes cl1 {
+
+    0% {opacity: 100%;}
+    100% {opacity: 0;}
+    }
+
+@keyframes bd {
+    0% {background-color: white;}
+    100% {background-color: rgb(255, 147, 7);}
 }
+
 
 @keyframes i1{
 
@@ -215,8 +241,8 @@
 
 @keyframes i4{
 
-    0% { opacity: 0%; left: 580px; top: 530px;}
-    100% { opacity: 100%; left: 580px; top: 530px; }
+    0% { opacity: 0%; left: 589px; top: 530px;}
+    100% { opacity: 100%; left: 589px; top: 530px; }
 
 }
 
@@ -325,3 +351,4 @@
     75% {bottom: 250px; left: 600px; background-color: green;}
     100% {top: 60px; left: 829px; background-color: green;}
 }
+
