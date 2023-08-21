@@ -1,22 +1,12 @@
 
 
-.cl1{
-    position: fixed;
-    margin-top: 200px;
-    margin-left: 500px;
-
-}
-
 #circle {
     background: red;
     width: 100px;
     height: 100px;
     border: 0px;
     border-radius: 20px;
-    position: fixed;
-    top: 0px;
-    left: 100px;
-    z-index:1;
+    position: absolute;
     animation: cir 6s ;
     animation-fill-mode: forwards;
 }
@@ -26,10 +16,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
-    top: 110px;
-    left: 100px;
-    z-index:1;
+    position: absolute;
     animation: q1 4s ;
     animation-fill-mode: forwards;
     
@@ -41,10 +28,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
-    top: 220px;
-    left: 0px;
-    z-index:1;
+    position: absolute;
     animation: q2 4s ;
     animation-fill-mode: forwards;
    
@@ -55,10 +39,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
-    top: 330px;
-    left: 100px;
-    z-index:1;
+    position: absolute;
     animation: q3 4s ;
     animation-fill-mode: forwards;
 }
@@ -68,10 +49,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
-    top: 0px;
-    left: 210px;
-    z-index:1;
+    position: absolute;
     animation: q4 4s ;
     animation-fill-mode: forwards;
 
@@ -83,9 +61,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
-    top: 0px;
-    z-index:1;
+    position: absolute;
     animation: q5 4s ;
     animation-fill-mode: forwards;
    
@@ -96,9 +72,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
-    top: 110px;
-    z-index:1;
+    position: absolute;
     animation: q6 4s ;
     animation-fill-mode: forwards;
    
@@ -109,8 +83,7 @@
     width: 100px;
     height: 100px;
     border-radius: 20px;
-    position: fixed;
-    z-index:1;
+    position: absolute;
     animation: q7 4s ;
     animation-fill-mode: forwards;
    
@@ -122,7 +95,6 @@
     height: 100px;
     border-radius: 20px;
     position: absolute;
-    z-index:1;
     animation: q8 4s ;
     animation-fill-mode: forwards;
    
@@ -134,7 +106,6 @@
     height: 100px;
     border-radius: 20px;
     position: absolute;
-    z-index:1;
     animation: q9 4s ;
     animation-fill-mode: forwards;
    
@@ -143,7 +114,7 @@
 
 #i1 {   
         opacity: 0;
-       position: fixed;
+       position: absolute;
        font-size: 80px;
        font-family: 'Open Sans';
        animation: i1 1s;
@@ -155,7 +126,7 @@
 
 #i2 {
     opacity: 0;
-       position: fixed;
+       position: absolute;
        font-size: 80px;
        font-family: 'Open Sans';
         animation-name: i2;
@@ -165,7 +136,7 @@
 
 #i2f {
     opacity: 0;
-       position: fixed;
+       position: absolute;
        font-size: 80px;
        font-family: 'Open Sans';
         animation-name: i2f;
@@ -176,7 +147,7 @@
 
 #i3 {
     opacity: 0;
-       position: fixed;
+       position: absolute;
        font-size: 80px;
        font-family: 'Open Sans';
         animation-name: i3;
@@ -186,7 +157,7 @@
 
 #i4 {
     opacity: 0;
-       position: fixed;
+       position: absolute;
        font-size: 80px;
        font-family: 'Open Sans';
         animation-name: i4;
@@ -196,7 +167,7 @@
 
 #i5 {
     opacity: 0;
-       position: fixed;
+       position: absolute;
        font-size: 80px;
        font-family: 'Open Sans';
         animation-name: i5;
@@ -206,7 +177,7 @@
 
 #i6 {
     opacity: 0;
-       position: fixed;
+       position: absolute;
        font-size: 40px;
        font-family: 'Open Sans';
         animation-name: i6;
@@ -310,7 +281,7 @@
     25% {top: 500px; background-color: darkgreen;}
     50% {top: 200px; background-color: red;}
     75% {top: 90px; background-color: green;}
-    100% {left:718px;  top: 58px; background-color: green;}
+    100% {left:718px;  top: 58px; background-color: rgb(1, 2, 1);}
 }
 
 @keyframes q5
