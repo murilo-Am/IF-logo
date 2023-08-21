@@ -281,7 +281,7 @@
     25% {top: 500px; background-color: darkgreen;}
     50% {top: 200px; background-color: red;}
     75% {top: 90px; background-color: green;}
-    100% {left:718px;  top: 58px; background-color: rgb(1, 2, 1);}
+    100% {left:718px;  top: 58px; background-color: green;}
 }
 
 @keyframes q5
@@ -290,7 +290,7 @@
     25% {right:45px; top: 50px; background-color: darkgreen;}
     50% {right: 958px; top:208px; background-color: red;}
     75% {right: 110px; background-color: green;}
-    100% {right:610px;  top: 58px; background-color: green;}
+    100% {left:718px;  top: 168px; background-color: rgb(48, 252, 48);}
 }
 
 @keyframes q6
@@ -299,7 +299,7 @@
     25% {right: 55px; top: 50px; background-color: darkgreen;}
     50% {right: 705px; top:90px; background-color: red;}
     75% {right: 110px; background-color: green;}
-    100% {right:718px;  top: 170px; background-color: green;}
+    100% {left: 720px;  top: 275px; background-color: rgb(181, 247, 0);}
 } 
 @keyframes q7
 {
@@ -307,7 +307,7 @@
     25% {right: 255px; top: 90px; background-color: darkgreen;}
     50% {right: 1150px; top:250px; background-color: red;}
     75% {right: 610px; background-color: green;}
-    100% {right: 715px;  top: 280px; background-color: green;}
+    100% {left: 720px;  top: 390px; background-color: rgb(155, 26, 112);}
 } 
 @keyframes q8
 {
