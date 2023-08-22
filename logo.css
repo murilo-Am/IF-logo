@@ -8,7 +8,7 @@
 
 .bd {
     animation-name: bd;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-delay: 15s;
     animation-fill-mode: forwards;
 }
@@ -18,11 +18,12 @@
     width: 100px;
     height: 100px;
     border: 0px;
-    border-radius: 20px;
+    border-radius: 20%;
     position: absolute;
     animation: cir 6s ;
     animation-fill-mode: forwards;
 }
+
 
 #quad1 {
     background: green;
@@ -208,7 +209,16 @@
 
 @keyframes bd {
     0% {background-color: white;}
-    100% {background-color: rgb(255, 147, 7);}
+    10%{background-color: rgb(142, 209, 142);}
+    20%{background-color: rgb(0, 0, 0);}
+    40%{background-color: rgb(72, 139, 72);}
+    50% {background-color: rgb(131, 204, 89);}
+    60%{background-color: rgb(15, 129, 15);}
+    70%{background-color: rgb(150, 216, 150);}
+    80%{background-color: rgb(18, 44, 32);}
+    90%{background-color: rgb(0, 219, 0);}
+    95%{background-color: rgb(27, 235, 131);}
+    100% { background-color: rgb(0, 105, 0)}
 }
 
 
@@ -267,10 +277,11 @@
     35% {left: 500px; top: 450px;  background-color: darkgreen;}
     50% {left: 820px; top: 550px; background-color: darkgreen;}
     60% {left: 1220px; top:600px ; background-color: darkolivegreen;}
-    70% {left: 1020px; top: 600px; background-color: darkolivegreen;}
+    70% {left: 1020px; top: 200px; background-color: darkolivegreen;}
     100% {top: 55px; left: 608px; background-color: red;border-radius: 200px;}
 
 }
+
 
 @keyframes q1
 {
