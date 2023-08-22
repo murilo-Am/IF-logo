@@ -1,7 +1,7 @@
 .cl1{
     opacity: 100%;
      animation-name: cl1;
-     animation-duration: 0.1s;
+     animation-duration: 2s;
      animation-delay: 15s;
      animation-fill-mode: forwards;
 } 
@@ -204,21 +204,24 @@
 @keyframes cl1 {
 
     0% {opacity: 100%;}
+    10% {opacity: 90%;}
+    20% {opacity: 50%;}
+    50% {opacity: 50%;}
     100% {opacity: 0;}
     }
 
 @keyframes bd {
-    0% {background-color: white;}
-    10%{background-color: rgb(142, 209, 142);}
+    0% {background-color: rgb(0, 0, 0);}
+    10%{background-color: rgb(13, 14, 13);}
     20%{background-color: rgb(0, 0, 0);}
-    40%{background-color: rgb(72, 139, 72);}
-    50% {background-color: rgb(131, 204, 89);}
-    60%{background-color: rgb(15, 129, 15);}
-    70%{background-color: rgb(150, 216, 150);}
-    80%{background-color: rgb(18, 44, 32);}
-    90%{background-color: rgb(0, 219, 0);}
-    95%{background-color: rgb(27, 235, 131);}
-    100% { background-color: rgb(0, 105, 0)}
+    40%{background-color: rgb(20, 22, 20);}
+    50% {background-color: rgb(41, 63, 29);}
+    60%{background-color: rgb(9, 62, 9);}
+    70%{background-color: rgb(12, 71, 12);}
+    80%{background-color: rgb(12, 80, 49);}
+    90%{background-color: rgb(15, 125, 15);}
+    95%{background-color: rgb(0, 152, 76);}
+    100% { background-color: green}
 }
 
 
@@ -323,8 +326,8 @@
 
 @keyframes q5
 {
-    0% {right:0px; top:50px; background-color: greenyellow;}
-    25% {right:45px; top: 50px; background-color: darkgreen;}
+    0% {right:23px; top:220px; background-color: greenyellow;}
+    25% {right:485px; top: 2200px; background-color: darkgreen;}
     50% {right: 958px; top:208px; background-color: red;}
     75% {right: 110px; background-color: green;}
     100% {left:718px;  top: 168px; background-color: green;}
@@ -332,16 +335,16 @@
 
 @keyframes q6
 {
-    0% {right:0px; top:50px; background-color: greenyellow;}
-    25% {right: 55px; top: 50px; background-color: darkgreen;}
-    50% {right: 705px; top:90px; background-color: red;}
-    75% {right: 110px; background-color: green;}
+    0% {right:452px; top:450px; background-color: greenyellow;}
+    25% {right: 50px; top: 0px; background-color: darkgreen;}
+    50% {right: 705px; top:410px; background-color: red;}
+    75% {left: 1110px; background-color: green;}
     100% {left: 720px;  top: 275px; background-color: green;}
 } 
 @keyframes q7
 {
-    0% {right: 0px; top:50px; background-color: greenyellow;}
-    25% {right: 255px; top: 90px; background-color: darkgreen;}
+    0% {right: 487px; top:520px; background-color: greenyellow;}
+    25% {right: 255px; top: 1520px; background-color: darkgreen;}
     50% {right: 1150px; top:250px; background-color: red;}
     75% {right: 610px; background-color: green;}
     100% {left: 720px;  top: 390px; background-color: green;}
