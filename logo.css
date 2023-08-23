@@ -6,6 +6,14 @@
      animation-fill-mode: forwards;
 } 
 
+#imagem {
+    opacity: 0%;
+    position: absolute;
+        animation: img 2s;
+        animation-delay: 18s;
+        animation-fill-mode: forwards;
+}
+
 .bd {
     animation-name: bd;
     animation-duration: 2s;
@@ -199,6 +207,17 @@
         animation-delay: 12s;
         animation-fill-mode: forwards;
 } 
+
+@keyframes img {
+
+    0% {opacity:100%; top: 150px; left: 300px;}
+    25% {top: 125px; left: 100px;}
+    30% {top:100px; left:300px;}
+    50% {top:75px; left:100px;}
+    70% {top:50px;left:300px;}
+    80% {top:25px;left:100px;}
+    100% { opacity: 100%; top:0px;left:300px;}
+}
 
 
 @keyframes cl1 {
